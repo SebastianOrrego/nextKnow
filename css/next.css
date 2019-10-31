@@ -132,20 +132,42 @@ article
 {
   width: 50%;
   position: relative;
+  box-sizing: border-box;
+  display: inline-block;
 }
 .one>div>p
 {
   font-size: 18px;
 }
+.one>img
+{
+  width: 45%;
+  margin: 0;
+  height: auto;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  bottom: 12.5vh;
+}
 .two>div
 {
   width: 50%;
   position: relative;
-  left: 50%;
+  box-sizing: border-box;
+  display: block;
 }
 .two>div>p
 {
   font-size: 18px;
+}
+.two>img
+{
+  width: 45%;
+  margin: 0;
+  height: auto;
+  padding: 0;
+  position: relative;
+  display: block;
 }
 footer
 {

@@ -93,7 +93,7 @@ la sección*/
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     align-content: center;
     text-align: center;
 }
@@ -121,21 +121,32 @@ article
   border: 1px dotted lightgrey;
   margin: 5px;
   width: 80%;
-  height: 400px;
+  height: 45vh;
   padding: 10px;
   box-sizing: border-box;
   left: 10%;
   position: relative;
   display: block;
 }
-.one>div
+.one>.into
 {
   width: 50%;
+  height: 95%;
   position: relative;
   box-sizing: border-box;
   display: inline-block;
 }
-.one>div>p
+.into>button
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #6eddb8;
+    color: blue;
+    left: 85%;
+    position: relative;
+}
+.one>.into>p
 {
   font-size: 18px;
 }
@@ -143,20 +154,21 @@ article
 {
   width: 45%;
   margin: 0;
-  height: auto;
+  height: 90%;
   padding: 0;
-  position: relative;
+  position: absolute;
   display: inline-block;
-  bottom: 12.5vh;
 }
-.two>div
+.two>.into
 {
   width: 50%;
+  height: 95%;
   position: relative;
   box-sizing: border-box;
-  display: block;
+  display: inline-block;
+  left: 50%;
 }
-.two>div>p
+.two>.into>p
 {
   font-size: 18px;
 }
@@ -164,15 +176,29 @@ article
 {
   width: 45%;
   margin: 0;
-  height: auto;
+  height: 90%;
   padding: 0;
-  position: relative;
+  position: absolute;
+  display: inline-block;
+}
+.icon
+{
+  width: 20%;
+  height: 50%;
   display: block;
+}
+.image
+{
+  display: inline-block;
+  width: 45%;
+  height: 90%;
+  position: absolute;
+  box-sizing: border-box;
 }
 footer
 {
   box-sizing: border-box;
-  margin: 10px 0 0 0;
+  margin: 50px 0 0 0;
   padding: 20px 45px;
   width: 100%;
   background-color: #263238;
